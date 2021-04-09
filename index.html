@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Responsable Banque</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,7 +15,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -23,9 +23,125 @@
 </head>
 
 <body>
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Actualités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Statistiques</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Opérations
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Créer un compte</a></li>
+              <li><a class="dropdown-item" href="#">Dépôt et Rettait</a></li>
+              <li><a class="dropdown-item" href="#">Virement</a></li>
+              <li><a class="dropdown-item" href="#">Clôturer un compte</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- header -->
+  <div class="card text-center">
+    
+    <div class="card-body">
+      <h1 class="card-title">Responsable Banque</h1>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    </div>
+  </div>
+
+
+  <main class="container my-5 ">
+    <h2>Vos comptes</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+              <div class="row">
+                <div class="mb-2 text-center">
+                  <a href="#" class="btn btn-primary">Voir</a>
+                </div>
+                <div class="mb-2 text-center">
+                  <a href="#" class="btn btn-primary">Depôt/Retrait</a>
+                </div>
+                <div class="mb-2 text-center">
+                  <a href="#" class="btn btn-primary">Clôturer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="row">
+                <div class="mb-2 text-center">
+                  <a href="#" class="btn btn-primary">Voir</a>
+                </div>
+                <div class="mb-2 text-center">
+                  <a href="#" class="btn btn-primary">Depôt/Retrait</a>
+                </div>
+                <div class="mb-2 text-center">
+                  <a href="#" class="btn btn-primary">Clôturer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="row">
+                <div class="mb-2 text-center">
+                  <a href="#" class="btn btn-primary">Voir</a>
+                </div>
+                <div class="mb-2 text-center">
+                  <a href="#" class="btn btn-primary">Depôt/Retrait</a>
+                </div>
+                <div class="mb-2 text-center">
+                  <a href="#" class="btn btn-primary">Clôturer</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <p>Mentions légales</p>
+    </div>
+  </footer>
+
+
+
+
+
+    <!-- Add your site or application content here -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
