@@ -7,9 +7,12 @@ function news() {
         let newsContent = document.getElementById("newsContent");
         if (httpRequest.readyState === XMLHttpRequest.DONE) {
             if (httpRequest.status === 200) {
-                let responseRequest = JSON.stringify(httpRequest.responseText);
+                let responseRequest = JSON.parse(httpRequest.responseText);
                 newsContent.innerText = responseRequest;
-                console.log(responseRequest);
+                let data = document.querySelectorAll("#newsContent") 
+                
+                
+
             } 
             else {
                 newsContent.innerText = "Nous n'avons pas réussi à récupérer le contenu";
