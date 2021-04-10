@@ -66,16 +66,18 @@
 
 
   <main class="container my-5 ">
-
-    <h1 class="text-center my-5">Créer un compte</h1>
-    <div class="input-group my-3">
-      <span class="input-group-text">Nom et Prénom</span>
-      <input type="text" aria-label="First name" class="form-control">
-      <input type="text" aria-label="Last name" class="form-control">
+    <h1 class="text-center my-5">Faire un Depôt ou un Retrait</h1>
+    <div class="my-3">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Sélectionner un compte à débiter</option>
+        <option value="1">Compte courant</option>
+        <option value="2">Compte Livret A</option>
+        <option value="3">Compte LEP</option>
+      </select>
     </div>
     <div class="my-3">
       <select class="form-select" aria-label="Default select example">
-        <option selected>Sélectionner un compte</option>
+        <option selected>Sélectionner un compte à créditer</option>
         <option value="1">Compte courant</option>
         <option value="2">Compte Livret A</option>
         <option value="3">Compte LEP</option>
@@ -87,10 +89,9 @@
       <span class="input-group-text">0.00</span>
     </div>
     <div class="col-12 my-3 text-center">
-      <button class="btn btn-primary" type="submit">Créer</button>
+      <button class="btn btn-primary" type="submit">Envoyer</button>
     </div>
     </form>
-    
   </main>
 
   <footer class="bg-dark text-white text-center py-5">
@@ -98,6 +99,10 @@
       <p>Mentions légales</p>
     </div>
   </footer>
+
+
+
+
 
     <!-- Add your site or application content here -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
