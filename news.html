@@ -23,12 +23,7 @@
 </head>
 
 
-<body onload="layerContent()">
-
-  <div id="layer" class="text-center pt-5">
-    <p id="layerContent" class="text-center "></p>
-    <button type="button" class="btn btn-danger" onclick="disable()">J'ai compris</button>
-  </div>
+<body onload="news()">
   
   <!-- nav -->
   <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
@@ -71,69 +66,11 @@
 
 
   <main class="container my-5 ">
-    <h2>Vos comptes</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+  <div id="newsContent">
 
-              <div class="row">
-                <div class="mb-2 text-center">
-                  <a href="#" class="btn btn-primary">Voir</a>
-                </div>
-                <div class="mb-2 text-center">
-                  <a href="#" class="btn btn-primary">Depôt/Retrait</a>
-                </div>
-                <div class="mb-2 text-center">
-                  <a href="#" class="btn btn-primary">Clôturer</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <div class="row">
-                <div class="mb-2 text-center">
-                  <a href="#" class="btn btn-primary">Voir</a>
-                </div>
-                <div class="mb-2 text-center">
-                  <a href="#" class="btn btn-primary">Depôt/Retrait</a>
-                </div>
-                <div class="mb-2 text-center">
-                  <a href="#" class="btn btn-primary">Clôturer</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <div class="row">
-                <div class="mb-2 text-center">
-                  <a href="#" class="btn btn-primary">Voir</a>
-                </div>
-                <div class="mb-2 text-center">
-                  <a href="#" class="btn btn-primary">Depôt/Retrait</a>
-                </div>
-                <div class="mb-2 text-center">
-                  <a href="#" class="btn btn-primary">Clôturer</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  </div>
+
   </main>
 
   <footer class="bg-dark text-white text-center py-5">
@@ -153,7 +90,6 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <script src="js/layer.js"></script>
-  <script src="js/news.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
